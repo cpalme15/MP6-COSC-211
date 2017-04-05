@@ -10,7 +10,7 @@ public class DrawingPanel extends JPanel implements MouseListener,MouseMotionLis
 	public DrawingPanel()
 	{
 		super();
-		this.setBackground(Color.yellow);
+		this.setForeground(Color.yellow);
 		
 	}
 	public void paintComponent(Graphics gr)
